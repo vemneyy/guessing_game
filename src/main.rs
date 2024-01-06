@@ -36,4 +36,8 @@ fn main() {
             }
         }
     }
+
+    println!("\nНажмите Enter для выхода...");
+    let mut pause = String::new();
+    io::stdin().read_line(&mut pause).expect("Ошибка при паузе");
 }
